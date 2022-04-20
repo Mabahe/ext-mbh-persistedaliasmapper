@@ -1,0 +1,20 @@
+{
+  "name": "mabahe/mbh-persistedaliasmapper",
+  "type": "typo3-cms-extension",
+  "description": "Add description...",
+  "homepage": "http://www.mbh-software.de",
+  "license": "proprietary",
+  "require": {
+    "typo3/cms-core": "^10.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mabahe\\MbhPersistedaliasmapper\\": "Classes"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "mbh_persistedaliasmapper"
+    }
+  }
+}
